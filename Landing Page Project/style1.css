@@ -1,0 +1,156 @@
+/*#bd .navbar
+{
+    border-bottom: #2980b9 solid 04px;
+}*/
+/*
+#Authors img
+{
+    margin-top: -50px;
+}
+
+#Authors .fa
+{
+    font-size: 25px;
+}
+
+#Authors .fa:hover
+{
+    color: white;
+}
+
+#Services .card:hover
+{
+    background:#2d3436;
+    color: #FFF;
+}
+
+#FooterRow
+{
+    border-top: #0984e3 solid 05px;
+}*/
+.navbar
+{
+	text-transform: uppercase;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: lightgrey;
+	opacity:.7;
+}
+body{
+	overflow-x: hidden;
+	color:#505962;
+}
+.navbar-brand
+{
+  height: 2rem;
+
+}
+.navbar-nav li
+{
+ padding-right: 4px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color:black;
+	padding-top:.8rem;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover
+{
+      color:red;
+      transition: .5s;
+}
+.s
+{
+	color:black;
+}
+.s:hover
+{
+	color: red;
+}
+.carousel-item{
+	height:50%
+	width:100%;
+}
+.navbar-light
+{
+	color:white;
+}
+#d
+{
+	color:#e74c3c;
+}
+.c{
+	font-weight: 400;
+}
+.e{
+	height:205px;
+}
+#ContactUs
+{
+      background-color: #c23616;
+      height:500px;
+}
+.form-control
+{
+   background:none;
+   border: 2px solid white;
+   
+}
+.form-control:hover,
+{
+	background-color:none;
+	color:white;
+
+.btn
+{
+	color:red;
+}
+#footer{
+	background-color: black;
+	
+}
+
+.fa-envelope
+{
+	color:white;
+	font-weight: bold;
+}
+.mb{
+	margin-top:90px;
+}
+.g
+{
+	margin-top: 20px;
+	font-weight: bold;
+}
+.fa-facebook
+{
+	color:white;
+}
+.fa-info-circle
+{
+	color:white;
+}
+
+
+	/*::-moz-input-placeholder{
+		color: red;
+		opacity: 1;
+	}
+	::-moz-input-placeholder{
+		color: red;
+		opacity: 1;
+	}
+*/
+
+      ::placeholder{
+        color: white !important; 
+      }
+      .form-control:focus {
+    color: #495057;
+    background-color: transparent;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
